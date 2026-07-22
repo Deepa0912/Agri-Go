@@ -1,0 +1,118 @@
+{
+  "farmName": "Agri-Go Smart Field Alpha",
+  "totalAcreage": 18.5,
+  "activeCropsCount": 4,
+  "overallHealthScore": 92,
+  "waterSavedLitersThisMonth": 142500,
+  "activeAlertsCount": 3,
+  "fields": [
+    {
+      "id": "field-A",
+      "name": "Field A - Roma Tomatoes",
+      "crop": "Tomato",
+      "acreage": 4.5,
+      "stage": "Flowering & Fruit Set",
+      "healthStatus": "Warning (Early Blight Risk)",
+      "healthScore": 84,
+      "soilMoisturePct": 58,
+      "lastIrrigation": "Yesterday, 6:00 AM",
+      "nextFertilizerDate": "Tomorrow"
+    },
+    {
+      "id": "field-B",
+      "name": "Field B - Sweet Corn",
+      "crop": "Maize / Corn",
+      "acreage": 6,
+      "stage": "Vegetative Growth",
+      "healthStatus": "Excellent",
+      "healthScore": 96,
+      "soilMoisturePct": 68,
+      "lastIrrigation": "Today, 5:30 AM",
+      "nextFertilizerDate": "In 3 Days"
+    },
+    {
+      "id": "field-C",
+      "name": "Field C - Basmati Rice Paddy",
+      "crop": "Rice",
+      "acreage": 5,
+      "stage": "Tillering Stage",
+      "healthStatus": "Good",
+      "healthScore": 91,
+      "soilMoisturePct": 84,
+      "lastIrrigation": "Continuous Drip",
+      "nextFertilizerDate": "In 5 Days"
+    },
+    {
+      "id": "field-D",
+      "name": "Field D - Russet Potatoes",
+      "crop": "Potato",
+      "acreage": 3,
+      "stage": "Tuber Initiation",
+      "healthStatus": "Excellent",
+      "healthScore": 95,
+      "soilMoisturePct": 62,
+      "lastIrrigation": "2 Days Ago",
+      "nextFertilizerDate": "Today"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Apply copper octanoate spray on Roma Tomatoes (Field A)",
+      "field": "Field A",
+      "completed": false,
+      "priority": "HIGH"
+    },
+    {
+      "id": 2,
+      "text": "Check drip line pressure emitters in Sweet Corn (Field B)",
+      "field": "Field B",
+      "completed": true,
+      "priority": "MEDIUM"
+    },
+    {
+      "id": 3,
+      "text": "Soil N-P-K nutrient lab sample collection for Basmati Paddy",
+      "field": "Field C",
+      "completed": false,
+      "priority": "LOW"
+    },
+    {
+      "id": 4,
+      "text": "Second Urea fertigation split application for Russet Potatoes",
+      "field": "Field D",
+      "completed": false,
+      "priority": "HIGH"
+    }
+  ],
+  "recentActivities": [
+    {
+      "id": 1,
+      "type": "DISEASE_SCAN",
+      "title": "AI Scan on Field A",
+      "result": "Tomato Early Blight detected (96.4%)",
+      "time": "10 mins ago"
+    },
+    {
+      "id": 2,
+      "type": "IRRIGATION",
+      "title": "Automated Drip Cycle Complete",
+      "result": "28,500 L applied to Field B & D",
+      "time": "2 hours ago"
+    },
+    {
+      "id": 3,
+      "type": "FERTILIZER",
+      "title": "NPK Fertigation Applied",
+      "result": "35kg Urea + 18kg DAP in Field A",
+      "time": "Yesterday"
+    },
+    {
+      "id": 4,
+      "type": "WEATHER_ALERT",
+      "title": "High Humidity Alert Triggered",
+      "result": "Preventive advisory generated",
+      "time": "Yesterday"
+    }
+  ]
+}

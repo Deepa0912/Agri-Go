@@ -1,0 +1,20 @@
+{
+  "name": "agri-go-smart-agriculture",
+  "version": "1.0.0",
+  "description": "Production Ready Smart Agriculture Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd client && npm run build",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "smart-agriculture",
+    "ai-disease-prediction",
+    "irrigation",
+    "weather-alerts",
+    "gemini-ai"
+  ]
+}
